@@ -18,6 +18,7 @@ int main()
 	printf("El area es: %f\n", area);
 	printf("El perimetro es: %f\n", perimetro);
 }
+/*Programa que calcula el área de un triangulo*/
 
 #include <stdio.h>
 
@@ -36,3 +37,24 @@ int main()
 
    return 0;
 }
+
+/* Programa: Área de una circunferencia (Solución 1) */
+
+#include <conio.h>
+#include <stdio.h>
+
+int main()
+{
+    float area, radio;
+
+    printf( "\n   Introduzca radio: " );
+    scanf( "%f", &radio );
+
+    area = 3.141592 * radio * radio;
+
+    printf( "\n   El %area de la circunferencia es: %.2f", 160, area );
+
+   
+    return 0;
+}
+
