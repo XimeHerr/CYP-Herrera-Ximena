@@ -38,7 +38,7 @@ int main()
    return 0;
 }
 
-/* Programa: Área de una circunferencia (Solución 1) */
+/* Programa: Área de una circunferencia */
 
 #include <conio.h>
 #include <stdio.h>
@@ -58,3 +58,14 @@ int main()
     return 0;
 }
 
+/*Programa que calcula el área de un cuadrado*/
+#include <stdio.h>
+int main()
+{
+	int lado;
+printf("digite el valor del lado:");
+scanf("%d", &lado);
+area=lado*lado;
+printf("el valor del area es:%d", area);
+return 0;
+}
