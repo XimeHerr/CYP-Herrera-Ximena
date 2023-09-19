@@ -18,3 +18,21 @@ int main()
 	printf("El area es: %f\n", area);
 	printf("El perimetro es: %f\n", perimetro);
 }
+
+#include <stdio.h>
+
+int main()
+{
+   float altura, area, base;
+
+   printf( "Introduzca base: " );
+   scanf( "%f", &base );
+   printf( "Introduzca altura: " );
+   scanf( "%f", &altura );
+
+   area = base * altura / 2;
+
+   printf( "El area del triangulo es: %f", area );
+
+   return 0;
+}
